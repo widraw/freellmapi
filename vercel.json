@@ -1,8 +1,7 @@
 {
   "framework": "vite",
-  "buildCommand": "npm run build -w client",
-  "outputDirectory": "client/dist",
-  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/api/(.*)", "destination": "https://<SERVER_URL>/api/$1" },
     { "source": "/v1/(.*)", "destination": "https://<SERVER_URL>/v1/$1" },
